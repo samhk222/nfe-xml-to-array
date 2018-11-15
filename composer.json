@@ -1,6 +1,11 @@
 {
     "name": "samhk222/nfe-xml-to-obj",
     "description": "Pacote para transformar um xml de nota fiscal em um objeto PHP",
+    "license": "MIT",
+      "keywords": [
+        "NFE",
+        "Nota Fiscal"
+    ],    
     "type": "library",
     "authors": [
         {
@@ -9,7 +14,8 @@
         }
     ],
     "minimum-stability": "stable",
-    "require": {},
+    "require": {
+    },
     "autoload": {
         "psr-4": {
             "samhk222\\NFE\\": "src/"
